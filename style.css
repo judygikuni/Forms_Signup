@@ -1,0 +1,151 @@
+.container
+{
+    display: flex;
+    margin-top: 2cm;
+    margin-left: 10cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+body{
+    background-color: rgb(247, 219, 222);
+}
+
+#heading{
+    text-align: center;
+    color: rgb(199, 4, 199);
+}
+.names{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.signup_form{
+
+width: 20%;
+padding-left: 1cm;
+padding-right: 1cm;
+border-left: solid 2px rgb(199, 4, 199) ;
+
+}
+
+
+#firstname{
+    height: 0.8cm;
+    
+
+}
+
+#lastname{
+    height: 0.8cm;
+    
+    
+}
+#emailaddress{
+    height: 0.9cm;
+    border: solid 1px gray;
+    border-radius: 3px;
+    width: 128%;
+}
+
+#Password{
+    height: 0.9cm;
+    width: 128%;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+#confirmpassword{
+    height: 0.9cm ;
+    width: 128%;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+#checkbox{
+    height: 0.9cm;
+    margin: 5px 0;
+    width: 128%;
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(199, 4, 199);
+    cursor: pointer;
+}
+
+#signin{
+    color:rgb(199, 4, 199) ;
+
+
+}
+#account{
+    text-align: center;
+}
+h3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 128%;
+}
+
+h3:before,
+h3:after{
+    content: "";
+    flex: 2 2;
+    border-bottom: 1px solid black;
+    margin: auto;
+    
+}
+
+.icons{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin-top: -40px;
+
+    
+}
+
+#facebook{
+   width: 125px;
+   height: 1.2cm;
+   background-color: rgb(252, 252, 252);
+   border-radius: 10px;
+   margin-left: 0.5cm;  
+}
+
+#apple{
+    width: 125%;
+    height: 1.2cm;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    opacity: 70%;
+    text-align: left;
+    margin-left: 0.5cm;
+
+
+}
+
+#google{
+    width: 125%;
+    height: 1.2cm;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    margin-left: 2cm;
+    
+}
+
+#passeye
+{
+    position: absolute;
+    right: 599px;
+    top: 420px;
+}
+
+#coneye
+{
+    position: absolute;
+    right: 599px ;
+    top: 530px;
+}
